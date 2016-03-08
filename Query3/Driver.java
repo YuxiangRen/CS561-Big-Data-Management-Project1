@@ -29,7 +29,7 @@ public class Driver extends Configured implements Tool{
 	
 	/***
 	 * Group output from different relations based on JoinKey
-	 * @author Xiang Huang
+	 * @author Xiang Huang, Zhongzheng Shu
 	 *
 	 */
 	public static class JoinGroupingComparator extends WritableComparator {
@@ -48,7 +48,7 @@ public class Driver extends Configured implements Tool{
 	
 	/***
 	 * Sort records to ensure the first records all come from certain relation
-	 * @author Xiang Huang
+	 * @author Xiang Huang, Zhongzheng Shu
 	 *
 	 */
 	public static class JoinSortingComparator extends WritableComparator {
